@@ -1,0 +1,306 @@
+html{
+	background-color: black;
+	font-family:"Times New Roman";
+}
+
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+#head{
+	background-color: black;
+	height: 20px;
+	width: 100%;
+	margin: 0 0 0 0;
+}
+
+#menu{
+	margin: 0 0 0 300px;
+	border: 2px solid 	#280000 ;
+	border-radius: 8px;
+	box-shadow: 0 8px 6px -6px #800000;
+}
+
+#div1{
+	background-color: black;
+	height: 400px;
+	width: 100%;
+	margin: 0 0 0 0;
+}
+
+#header1{
+	
+	font-size: 100px;
+	font-weight: bold;
+	padding-top:  10px;
+	padding-left: 110px;
+	/*WE need to specify the webkit and -webkit-background-clip: text;  -webkit-text-fill-color: transparent; for thhis to work only one text otherwise it will show gradient on background
+	of the divison not on text*/
+    background:-webkit-repeating-linear-gradient(-45deg, #800000, #800000 20px, white 20px, white 40px);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow: 2px 2px 20px #000000;
+	}
+
+
+
+
+#logo {
+	
+	margin: -200px 0px 0px 500px  ;
+	/*box-shadow: 1px 14px 20px #800000;*/
+
+}
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+	
+
+}
+
+li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
+
+li a {
+	display:block;
+	min-width:140px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #800000;
+	background: black;
+	text-decoration: none;
+}
+
+/*Hover state for top level links*/
+li:hover a {
+	color: white;
+}
+
+/*Style for dropdown links*/
+li:hover ul a {
+	background: black;
+	color: #800000;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+	/*background:green;*/
+	color: white;
+}
+
+/*Hide dropdown links until they are needed*/
+li ul {
+	display: none;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+	display: block;
+	float: none;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
+.outer{
+	margin:-90px 100px 0px 100px;
+	border:1px solid grey;
+	height: 830px;
+	color: white;
+	border-radius: 5px;
+}
+
+
+#btn {
+
+	overflow: hidden;
+	width: 1126px;
+	/*margin: 50px 0px 0px 170px;*/
+	padding: 20px 10px 20px 10px;
+	margin-right: 1px;	
+	background-color: #181818;
+	border-radius: 5px;	
+
+	
+}
+
+
+#btn #btn1 {
+	
+	margin-left: 20px;
+	float: left;
+	width: 300px;
+	margin-right: 50px;
+	border-radius: 5px;
+
+}
+
+#btn #btn2 {
+	
+	margin-right: 50px;
+	margin-left: 50px;
+	float: left;
+	width: 270px;
+border-radius: 5px;
+	
+	
+}
+
+#btn #btn3 {
+	
+	margin-right: 10px;
+	float: right;
+	width: 300px;
+	border-radius: 5px;
+	}
+
+
+.headings{
+	color: #800000;
+	font-size: 30px;
+	padding-top:-25px;
+	margin: 0px;
+}
+
+.featured-content {
+
+	margin-top: 20px;
+	overflow: hidden;
+	width: 1126px;
+border-radius: 5px;
+/*	margin: 0px auto;
+	padding: 90px 0px 0px 20px;
+	border-bottom: 5px solid #E9EAEE;	*/
+	
+}
+
+
+.featured-content #column1 {
+	background-color: #1a1a1a;
+	padding-left: 20px;
+	border: 0.5px solid grey;
+	float: left;
+	width: 280px;
+	margin-right: 20px;
+	margin-left: 20px;
+	height: 200px;
+	/* box-shadow: 5px 5px 20px  #888888;*/
+border-radius: 5px;
+
+}
+
+.featured-content #column2 {
+	background-color: #1a1a1a;
+	border-radius: 5px;
+	padding-left: 20px;
+	border: 0.5px solid grey;
+	float: left;
+	width: 760px;
+	height: 200px;
+	/* box-shadow: 5px 5px 20px  #888888;*/
+}
+
+.button a {
+	display: block;
+	float: left;
+	width: 88px;
+	padding: 5px 5px;
+	
+	margin-left: 600px;
+	background: #800000;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	
+}
+
+
+.featured-content #c1 {
+	background-color: #1a1a1a;
+	padding-left: 20px;
+	border: 0.5px solid grey;
+	float: left;
+	width: 332px;
+	margin-right: 20px;
+	margin-left: 20px;
+	height: 400px;
+	/* box-shadow: 5px 5px 20px  #888888;
+*/
+border-radius: 5px;
+}
+
+.featured-content #c2 {
+	background-color: #1a1a1a;
+	
+	padding-left: 20px;
+	border: 0.5px solid grey;
+	float: left;
+	width: 332px;
+	height: 400px;
+	
+	border-radius: 5px;
+/*	 box-shadow: 5px 5px 20px  #888888;*/
+}
+
+.featured-content #c3{
+	background-color: #1a1a1a;
+	margin-left: 20px;
+	padding-left: 20px;
+	border: 0.5px solid grey;
+	float: left;
+	width: 332px;
+	height: 400px;
+	border-radius: 5px;
+	
+/*	 box-shadow: 5px 5px 20px  #888888;*/
+}
+
+.button1 a {
+	display: block;
+	float: left;
+	width: 60px;
+	padding: 5px 5px;
+	font-size: 12px;
+	margin-left: 250px;
+	background: #800000;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin-top: -12px;
+
+	
+}
+
+#footer1{
+	margin-top: -10px;
+	padding-top: 50px;
+	text-align:center;
+	
+	color: grey;
+	height: 30px;
+	width: 100%;
+}
