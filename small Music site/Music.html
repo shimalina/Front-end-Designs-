@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>
+	<title>First CSS Page</title>
+	<style type="text/css">
+
+	ul{
+		text-align: center;
+		padding-left: 100px;
+		list-style-type: none; 
+	}
+
+	li{
+		margin-left: 100px;
+		float: left;
+
+	}
+
+	li a{
+		display: block;
+		text-align: center;
+		padding: 15px 17px;
+		text-decoration: none;
+		color: white;	
+		outline: none;
+	}
+
+	li a:hover{
+		background-color: black;
+	}
+
+	.active {
+    background-color: black;
+}
+
+
+	table{
+		background-color:#EEECEC;
+		width:100%;
+		 height:100%;
+		 border-collapse: separate;
+		 padding: 5px;
+	}
+
+	thead {color:#20B2AA;}
+
+	#newtab{
+		color: white;
+	}
+
+	img {
+    float: left;
+    margin: 0 0 0 0 ;
+}
+
+.pri{
+	left: 20px;
+	position: absolute;
+	color: white;
+}
+
+
+</style>
+
+</head>
+<body>
+	<img src="../Pics/1222b8bd-48c4-4239-8524-d04366a9b8f7.jpg" alt="" name="logo" width="100%" height="250" id="logo"/>  
+<p class="pri" style="font-size:20px;color:#20B2AA;">The World of Music!</p>
+<p class="pri" style="margin-top:70px;">Search Music</p>
+<br>
+<br><br><br><br>
+<form action="form_action.asp" method="get" stlye="width: 200px; position: relative;" class="pri" >
+	<table style="background:transparent" >
+		<tr>
+			<td style="color:#20B2AA">Genere:</td><td><input type="text" name="fname"></td>
+		</tr>
+		<tr>
+			<td style="color:#20B2AA">Language:</td><td><input type="text" name="lname"></td>
+		</tr>
+	</table>
+  <input type="submit" value="Search">
+</form>
+
+
+
+
+<table style="background-color:#20B2AA" width="100%">
+	<tr>
+		<td>
+			<ul>
+				<li><a href="css_template.html">Home</a></li>
+				<li><a href="About_us.html">About Us</a></li>
+				<li><a class="active" href="Music.html">Music </a></li>
+				<li><a href="Gallery.html">Gallery </a></li>
+				<li><a href="Downloads.html">Downloads </a></li>
+
+			</ul>
+		</td>
+	</tr>
+</table>
+<h4>Below is list of few songs</h4>
+<p>1. BTS -> Butterfly</p>
+<audio controls>
+  <source src="mp3/butterfly.ogg" type="audio/ogg">
+  <source src="mp3/butterfly.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<br>
+<p>2. BTS -> Fire</p>
+<audio controls>
+  <source src="mp3/fire.ogg" type="audio/ogg">
+  <source src="mp3/fire.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<br>
+<p>3. TVXQ -> How can I</p>
+<audio controls>
+  <source src="mp3/HowcanI.ogg" type="audio/ogg">
+  <source src="mp3/HowcanI.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+
+<table style="background-color:#20B2AA" width="100%">
+	<tr>
+		<td>
+			<ul>
+				<li><a href="css_template.html">Home</a></li>
+				<li><a href="About_us.html">About Us</a></li>
+				<li><a href="Music.html">Music </a></li>
+				<li><a href="Gallery.html">Gallery </a></li>
+				<li><a href="Downloads.html">Downloads </a></li>
+			</ul>
+			<br>
+			<br>
+			<h6 style="text-align:center;color:white">@Copyright Information: All rights reserved designed by Priyanka Mahawar</h6>
+		</td>
+	</tr>
+	
+
+</table>
+
+
+
+</body>

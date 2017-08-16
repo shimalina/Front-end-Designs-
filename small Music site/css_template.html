@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<head>
+	<title>First CSS Page</title>
+	<style type="text/css">
+
+	ul{
+		text-align: center;
+		padding-left: 100px;
+		list-style-type: none; 
+	}
+
+	li{
+		margin-left: 100px;
+		float: left;
+
+	}
+
+	li a{
+		display: block;
+		text-align: center;
+		padding: 15px 17px;
+		text-decoration: none;
+		color: white;	
+		outline: none;
+	}
+
+	li a:hover{
+		background-color: black;
+	}
+
+	.active {
+    background-color: black;
+}
+
+
+	table{
+		background-color:#EEECEC;
+		width:100%;
+		 height:100%;
+		 border-collapse: separate;
+		 padding: 5px;
+	}
+
+	thead {color:#20B2AA;}
+
+	#newtab{
+		color: white;
+	}
+
+	img {
+    float: left;
+    margin: 0 0 0 0 ;
+}
+
+#column1 {
+	float: left;
+	
+}
+
+#column2 {
+	float: left;
+	
+}
+
+#column3 {
+	float: left;
+	
+}
+
+.pri{
+	left: 20px;
+	position: absolute;
+	color: white;
+}
+
+
+</style>
+
+</head>
+<body>
+	<img src="../Pics/1222b8bd-48c4-4239-8524-d04366a9b8f7.jpg" alt="" name="logo" width="100%" height="250" id="logo"/>  
+<p class="pri" style="font-size:20px;color:#20B2AA;">The World of Music!</p>
+<p class="pri" style="margin-top:70px;">Search Music</p>
+<br>
+<br><br><br><br>
+<form action="form_action.asp" method="get" stlye="width: 200px; position: relative;" class="pri" >
+	<table style="background:transparent" >
+		<tr>
+			<td style="color:#20B2AA">Genere:</td><td><input type="text" name="fname"></td>
+		</tr>
+		<tr>
+			<td style="color:#20B2AA">Language:</td><td><input type="text" name="lname"></td>
+		</tr>
+	</table>
+  <input type="submit" value="Search">
+</form>
+
+
+
+
+<table style="background-color:#20B2AA" width="100%">
+	<tr>
+		<td>
+			<ul>
+				<li><a class="active" href="css_template.html">Home</a></li>
+				<li><a href="About_us.html">About Us</a></li>
+				<li><a href="Music.html">Music </a></li>
+				<li><a href="Gallery.html">Gallery </a></li>
+				<li><a href="Downloads.html">Downloads </a></li>
+
+			</ul>
+		</td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<td>
+			<p>We provide many songs to download of different languages. There are top songs of top singers from different contries plus we have gallery of singers too. This will give your music interest a new turn...</p>
+		</td>
+		
+
+		</td>
+	</tr>
+
+	<tr>
+		<table cellpadding="5" cellspacing="5" >
+			<tr>
+				<td style="padding-left: 10px;weight:100%;height:60%">
+					<table background="../Pics/GibsonRobotGuitar.jpg" cellpadding="5" cellspacing="5" style="color:white">
+						<tr>	
+							<td valign="bottom">
+						
+								<p id="newtab"><a href="TVXQ.html" target="_blank">Click here for <b>TVXQ<b> page</a></p>
+						
+							</td>
+						</tr>
+					</table>
+				
+				 
+				</td>
+			
+				<td style="background-color:#D5D2D1">
+					<h4 style="color:#20B2AA">List of Lanuages:</h4>
+					<ul style="list-style-type:circle" >
+						<li>English</li><br>
+						<li>Hindi</li><br>
+						<li>Korean</li><br>
+						<li>Japanese</li><br>
+						<li>Others</li><br>
+					</ul>	
+				</td>
+			</tr>	
+		</table>
+	</tr>
+
+	<tr>
+		<table cellpadding="5" cellspacing="5">
+			 <thead>
+    <tr>
+      <th>Music is Life!</th>
+      <th>Singers</th>
+      
+    </tr>
+  </thead>
+			<tr>
+				<td style="padding-left: 10px;weight:30%;height:60%">
+			<p><img src="../Pics/music-staff-blue.png" alt="Icon" style="width:200px;height:150px">
+			The birth of digital music has impacted trends within the overall industry. There are currently four major labels that account for an 88% majority in all album sales. Over a billion dollars to date has been spent in lobbying fees for the entertainment industry. </p><br>
+			</td>	
+			<td>
+				<table>
+					<tr>
+			<td id="column1" style="padding-left: 10px;" >
+			<a href="file:///D:/Extra/2016/Internship/cd/Pics/TVXQ_138.jpg" class="imageLink">
+            <img name="First" src="../Pics/TVXQ_138.jpg" style="width:200px;height:150px" /> </a>
+            <br>
+            <p>TVXQ is the most popular singer-group of south-korea.</p>
+           
+
+			</td>
+
+			<td id="column2"  style="padding-left: 10px;">
+			<a href="file:///D:/Extra/2016/Internship/cd/Pics/Alone.jpg" class="imageLink">
+            <img name="First" src="../Pics/Alone.jpg" style="width:200px;height:150px" /> </a>
+            <br>
+            <p>SiSTAR is the most popular female singer-group of south-korea.</p>
+            
+		<td id="column3"  style="padding-left: 10px;">
+			<a href="file:///D:/Extra/2016/Internship/cd/Pics/0ebd894aefd160a5b31106a03ef720c1.jpg" class="imageLink"><img src="../Pics/0ebd894aefd160a5b31106a03ef720c1.jpg" style="width:200px;height:150px" alt="" /></a>
+			<br>
+            <p>BTS is the another most popular boy singer-group of south-korea..</p>
+			</td>
+		</td>
+			
+		</tr>
+		</table>
+		</td>
+
+	</tr>
+	</table>
+	
+
+	</tr>
+</table>
+
+<table style="background-color:#20B2AA" width="100%">
+	<tr>
+		<td>
+			<ul>
+				<li><a href="css_template.html">Home</a></li>
+				<li><a href="About_us.html">About Us</a></li>
+				<li><a href="Music.html">Music </a></li>
+				<li><a href="Gallery.html">Gallery </a></li>
+				<li><a href="Downloads.html">Downloads </a></li>
+
+
+			</ul>
+			<br>
+			<br>
+			<h6 style="text-align:center;color:white">@Copyright Information: All rights reserved designed by Priyanka Mahawar</h6>
+		</td>
+	</tr>
+	
+
+</table>
+
+
+
+</body>
